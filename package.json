@@ -21,5 +21,10 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
     "typeCheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "zod": "^4.2.1"
   }
 }
