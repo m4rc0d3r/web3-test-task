@@ -6,10 +6,12 @@
   "main": "index.js",
   "devDependencies": {
     "prettier": "3.7.4",
-    "prettier-plugin-jsdoc": "^1.8.0"
+    "prettier-plugin-jsdoc": "^1.8.0",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "format:check": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "typeCheck": "tsc --noEmit"
   }
 }
