@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "eslint": "^9.39.2",
@@ -15,6 +15,7 @@
     "typescript-eslint": "^8.50.1"
   },
   "scripts": {
+    "build": "tsc",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",

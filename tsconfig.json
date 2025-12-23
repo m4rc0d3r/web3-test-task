@@ -5,6 +5,7 @@
     "declaration": true,
     "declarationMap": true,
     "noEmitOnError": true,
+    "outDir": "dist",
     "sourceMap": true,
 
     "erasableSyntaxOnly": true,
@@ -28,5 +29,6 @@
     "noPropertyAccessFromIndexSignature": true,
     "allowUnusedLabels": false,
     "allowUnreachableCode": false
-  }
+  },
+  "include": ["src"]
 }
